@@ -1,0 +1,4 @@
+FASTQ	plugins/ReadTracker/example/FASTQ
+filtered	filteredstats.csv
+DADA	dada/dada
+merged	nochimeras/nochimeras

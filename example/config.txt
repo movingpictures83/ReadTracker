@@ -1,0 +1,2 @@
+Prefix plugins/ReadTracker/example
+Plugin ReadTracker inputfile parameters.txt outputfile output
