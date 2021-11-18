@@ -31,8 +31,8 @@ run <- function() {
 }
 
 output <- function(outputfile) {
-fnFs <- sort(list.files(fastq, pattern="-R1.fastq", full.names = TRUE))
-sample.names <- sapply(strsplit(basename(fnFs), "-"), `[`, 1)
+fnFs <- sort(list.files(fastq, pattern="_R1.fastq", full.names = TRUE))
+sample.names <- sapply(strsplit(basename(fnFs), "_"), `[`, 1)
 print(fnFs)
 print(sample.names)
 print(out)
